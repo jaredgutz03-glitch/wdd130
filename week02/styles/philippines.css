@@ -1,0 +1,37 @@
+main {
+    max-width: 840px;
+}
+
+aside{
+    width: 50rem;
+    margin: 0%;
+    border: apx solix rgb(0 0 0 / 0.2);
+    padding: 5%;
+    background-color: rgb(227, 212, 189);
+    color: #484343;
+    text-align: center;
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+
+}
+p {
+    padding: 0;
+}
+h1 {
+    font-size: 20px;
+    text-align: left;
+}
+h2 {
+    color: rgb(27, 31, 29);
+    text-align: center;
+    font-size: 100px;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #333;
+    text-align: center;
+}
