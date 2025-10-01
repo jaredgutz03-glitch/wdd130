@@ -27,7 +27,7 @@ header {
     padding: 1rem 2rem;
 }
 
-/* Limit max width but allow full width on small screens */
+
 header, main, footer {
     max-width: 1200px;
     margin: 0 auto;
@@ -187,4 +187,167 @@ footer .socialmedia img {
     footer .socialmedia {
         justify-content: center;
     }
+}
+
+#week5additional-contactpage
+body, h1, h2, p, ul, li, form, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #371a80; 
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo img {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px 15px;
+  background: #fff;
+  border-radius: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  background: #333;
+  color: #fff;
+}
+
+/* Company Info */
+.company-info {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.company-info h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+
+.map iframe {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, 
+form textarea {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+button {
+  padding: 12px;
+  background: #704ecd;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #371a80; 
+}
+
+
+.employees {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.employee-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.employee img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.employee p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #371a80;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer .socialmedia a img {
+  width: 40px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+footer .socialmedia a img:hover {
+  transform: scale(1.2);
 }
